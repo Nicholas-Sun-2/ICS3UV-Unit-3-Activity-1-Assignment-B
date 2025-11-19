@@ -11,7 +11,6 @@ import "fmt"
 
 func main(){
 	// Declare variables
-
 	var subtotal float32 = 315.99;
 	var tax float32 = subtotal * 0.13;
 	var tip float32 = subtotal * 0.15;
