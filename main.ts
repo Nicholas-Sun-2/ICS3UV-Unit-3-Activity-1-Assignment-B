@@ -6,11 +6,11 @@
  */
 
 // Declare variables
-var subtotal : number = 315.99;
-var tax : number = subtotal * 0.13;
-var tip : number = subtotal * 0.15;
-var total : number = subtotal + tax + tip;
-var costPerPerson : number = total / 5;
+let subtotal : number = 315.99;
+let tax : number = subtotal * 0.13;
+let tip : number = subtotal * 0.15;
+let total : number = subtotal + tax + tip;
+let costPerPerson : number = total / 5;
 
 // Print the output
 console.log("Subtotal: $" + String(subtotal));
